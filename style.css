@@ -1,0 +1,281 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display:flex;
+    width: 600px;
+    height: 430px;
+}
+section img{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity:.8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.inicio{
+    background-image:url("imagenportada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    
+}
+.container-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.titulo{
+    color: coral;
+    font-size: 26px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.subtitulo{
+    color: rgb(253, 253, 253);  
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 38px;
+    margin: 28px;
+    text-align: center;
+}
+.boton-inicio{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 77, 77);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+.presentacion{
+    background-image: radial-gradient(circle at -7.92% 90.56%, #bdd0ff 0, #6c90d8 50%, #0056aa 100%);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 50px;
+}
+.blue{
+    color: #0056aa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.izquierda-presentacion{
+    background-image: url("courier.png");
+    width:50%;
+}
+.courier{
+    height: 100%;
+}
+.derecha-presentacion{
+    width: 50%;
+    padding: 40px;
+}
+.texto-presentacion{
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    align-items: center;
+}
+.numeros-presentacion{
+    width: 100%;
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    
+}
+.numero1{
+    padding: 0px 20px 0px 0px;
+    font-size: large;
+    border-right-style: solid;
+    border-color: rgb(0, 77, 77);
+}
+.numero2{
+    padding: 0px 20px 0px 20px;
+    font-size: large;
+    border-right-style: solid;
+    border-color:rgb(0, 77, 77);
+}
+.numero3{
+    padding: 0px 0px 0px 20px;
+    font-size: large;
+}
+.uno{
+    font-size:48px;
+    color:rgb(5, 104, 104);
+    padding-bottom: 4px;
+}
+.dos{
+    font-size:18px;
+    color:rgb(0, 0, 0);
+}
+.tres{
+    font-size:48px;
+    color:rgb(5, 104, 104);
+    padding-bottom: 4px;
+}
+.cuatro{
+    font-size:18px;
+    color:rgb(0, 0, 0);
+}
+.cinco{
+    font-size:48px;
+    color:rgb(5, 104, 104);
+    padding-bottom: 4px;
+}
+.seis{
+    font-size:18px;
+    color:rgb(0, 0, 0);
+ }
+.boton-presentacion{
+    background-color: rgb(0, 77, 77);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+.cajas-container{
+    background-image: radial-gradient(circle at -7.92% 90.56%, #847a62 0, #3b424f 50%, #00103a 100%);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 50px;
+}
+.caja1{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.caja2{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.caja3{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.caja4{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.caja5{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.caja6{
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.des1{
+    background-image: url("facebook.png");
+    width: 50%;
+}
+.des2{
+    background-image: url("instagram.png");
+    width: 50%;
+}
+.des3{
+    background-image: url("whatsapp.png");
+    width: 50%;
+}
+.des4{
+    background-image: url("gmail.png");
+    width: 50%;
+}
+.des5{
+    background-image: url("linkedin.png");
+    width: 50%;
+}
+.des6{
+    background-image: url("github.png");
+    width: 50%;
+}
+.tex1{
+    text-align: center;
+    color: white;
+}
+.tex2{
+    text-align: center;
+    color: white;
+}
+.tex3{
+    text-align: center;
+    color: white;
+}
+.tex4{
+    text-align: center;
+    color: white;
+}
+.tex5{
+    text-align: center;
+    color: white;
+}
+.tex6{
+    text-align: center;
+    color: white;
+}
+.facebook{
+    width: 100%;
+}
+.instagram{
+    width: 100%;
+}
+.whatsapp{
+    width: 100%;
+}
+.gmail{
+    width: 100%;
+}
+.linkedin{
+    width: 100%;
+}
+.github{
+    width: 100%;
+}
+.cuarto-container{
+    width: 100%;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    background-image: radial-gradient(circle at -7.92% 90.56%, #bdd0ff 0, #6c90d8 50%, #0056aa 100%);
+}
+.izquierda-cuarta{
+    width: 50%;
+}
+.derecha-cuarta{
+    width: 50%;
+    padding: 40px 40px 40px 40px;
+}
+.cuarta{
+    width: 100%;
+}
+.texto-cuarto{
+    border-bottom-style: solid;
+    color:rgb(5, 104, 104);
+}
+.subtitulo-cuarto{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.buton-cuarto{
+    text-decoration: none;
+    color:rgb(5, 104, 104);
+    font-size: xx-large;
+}
+.boton-presentacion{
+    display: flex;
+    padding-left: 50%;
+}
